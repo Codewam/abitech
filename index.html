@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abitech Graphics & Printing – Professional graphic design, printing, and branding solutions for businesses and individuals." />
+  <meta name="keywords" content="graphic design, printing, branding, t-shirt printing, vehicle branding, banners, Nairobi" />
+  <meta name="author" content="Abitech Graphics & Printing" />
+  <meta property="og:title" content="Abitech Graphics & Printing" />
+  <meta property="og:description" content="Transforming Ideas into Powerful Visual Brands" />
+  <meta property="og:type" content="website" />
+  <title>Abitec Graphics & Printing | Professional Branding & Print Solutions</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     LOADING SCREEN
+============================================================ -->
+<div id="loader">
+  <div class="loader-logo">ABI<span>TEC</span></div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- ============================================================
+     NAVIGATION
+============================================================ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo" onclick="showPage('home')">
+  <img src="img/logo.png" alt="ABITECH Logo" class="logo-img">
+</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#" onclick="showPage('home')" data-page="home" class="active">Home</a></li>
+      <li><a href="#" onclick="showPage('about')" data-page="about">About Us</a></li>
+      <li><a href="#" onclick="showPage('services')" data-page="services">Services</a></li>
+      <li><a href="#" onclick="showPage('shop')" data-page="shop">Shop</a></li>
+      <li><a href="#" onclick="showPage('work')" data-page="work">Our Work</a></li>
+      <li><a href="#" onclick="showPage('contact')" data-page="contact" class="nav-cta">Contact Us</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ============================================================
+     HOME PAGE
+============================================================ -->
+<div id="page-home" class="page active">
+  <div class="page-content">
+
+<section class="hero">
+
+    <div class="slides-wrap">
+
+        <div class="slide active">
+            <div class="slide-visual">
+                <img src="img/s3.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-visual">
+                <img src="img/Banner and Billboard Design Ideas for Food Business.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide active">
+            <div class="slide-visual">
+                <img src="img/Business Signs London.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-visual">
+                <img src="img/Flyers Designing & Printing.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-visual">
+                <img src="img/Stamp PSD Templates - Free Download.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-visual">
+                <img src="img/company sign logo design lighted coffee custom sign.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-visual">
+                <img src="img/Lettres lumineuses bloc led 30mm.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-visual">
+                <img src="img/car sticker mockup _ Portfolio - Brandz.jpg" alt="">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-visual">
+                <img src="img/s2.jpg" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <div class="hero-text">
+            <p class="hero-eyebrow">Thika Town, Tabbi House 1st floor</p>
+
+            <h1 class="hero-title">
+                Professional<br>
+                <span>Printing</span> &amp;<br>
+                Branding<br>
+                Solutions
+            </h1>
+
+            <p class="hero-sub">
+                Transforming ideas into powerful visual brands that captivate,
+                communicate, and convert.
+            </p>
+
+            <div class="hero-btns">
+                <!-- your buttons -->
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-indicators" id="heroIndicators"></div>
+    <div class="hero-scroll">Scroll</div>
+
+</section>
+
+    <!-- Ticker -->
+    <div class="ticker">
+      <div class="ticker-inner" id="tickerInner"></div>
+    </div>
+
+    <!-- Why Choose Us -->
+    <section class="section" style="background:var(--cream);">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="section-label">Why Choose Us</p>
+          <h2 class="section-title">Reasons to Work<br/>With Abitec</h2>
+          <p class="section-subtitle">We combine creativity, quality, and speed to deliver results that make your brand unforgettable.</p>
+        </div>
+        <div class="why-grid reveal">
+          <div class="why-card">
+            <span class="why-num">01</span>
+            <div class="why-icon"><i class="fas fa-pencil-ruler"></i></div>
+            <h3>Professional Designs</h3>
+            <p>Our experienced designers craft compelling visuals tailored to your brand identity and target audience.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">02</span>
+            <div class="why-icon"><i class="fas fa-star"></i></div>
+            <h3>High-Quality Printing</h3>
+            <p>We use premium materials and cutting-edge printing technology for crisp, vibrant, long-lasting results.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">03</span>
+            <div class="why-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Fast Turnaround</h3>
+            <p>Tight deadlines? No problem. We deliver on time, every time, without compromising on quality.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">04</span>
+            <div class="why-icon"><i class="fas fa-tag"></i></div>
+            <h3>Affordable Pricing</h3>
+            <p>Competitive rates for every budget — from startups to established enterprises — with no hidden costs.</p>
+          </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section class="section feat-services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">What We Do</p>
+          <h2 class="section-title light">Our Core<br/>Services</h2>
+          <p class="section-subtitle light">Comprehensive creative solutions under one roof, from concept to completion.</p>
+        </div>
+        <div class="services-scroll reveal">
+          <div class="svc-card">
+            <div class="svc-card-icon"><i class="fas fa-palette"></i></div>
+            <h3>Graphic Design</h3>
+            <p>Logos, posters, flyers, brochures, business cards, social media graphics and more.</p>
+            <a href="#" class="btn btn-outline" onclick="showPage('services')"><i class="fas fa-arrow-right"></i> Learn More</a>
+          </div>
+          <div class="svc-card">
+            <div class="svc-card-icon"><i class="fas fa-print"></i></div>
+            <h3>General Printing</h3>
+            <p>High-quality flyers, posters, brochures, business cards, letterheads, stickers and certificates.</p>
+            <a href="#" class="btn btn-outline" onclick="showPage('services')"><i class="fas fa-arrow-right"></i> Learn More</a>
+          </div>
+          <div class="svc-card">
+            <div class="svc-card-icon"><i class="fas fa-tshirt"></i></div>
+            <h3>T-Shirt Printing</h3>
+            <p>Corporate uniforms, event tees, custom designs, and sports jerseys with vibrant prints.</p>
+            <a href="#" class="btn btn-outline" onclick="showPage('services')"><i class="fas fa-arrow-right"></i> Learn More</a>
+          </div>
+          <div class="svc-card">
+            <div class="svc-card-icon"><i class="fas fa-car"></i></div>
+            <h3>Branding Services</h3>
+            <p>Vehicle branding, shop fronts, office signage, roll-up banners and wall graphics.</p>
+            <a href="#" class="btn btn-outline" onclick="showPage('services')"><i class="fas fa-arrow-right"></i> Learn More</a>
+          </div>
+          <div class="svc-card">
+            <div class="svc-card-icon"><i class="fas fa-image"></i></div>
+            <h3>Large Format Printing</h3>
+            <p>Banners, billboards, exhibition displays, and large-scale event branding.</p>
+            <a href="#" class="btn btn-outline" onclick="showPage('services')"><i class="fas fa-arrow-right"></i> Learn More</a>
+          </div>
+          <div class="svc-card">
+            <div class="svc-card-icon"><i class="fas fa-gift"></i></div>
+            <h3>Promotional Items</h3>
+            <p>Branded mugs, caps, pens, and corporate merchandise for impactful giveaways.</p>
+            <a href="#" class="btn btn-outline" onclick="showPage('services')"><i class="fas fa-arrow-right"></i> Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-band">
+      <div class="container">
+        <div class="stats-grid reveal">
+          <div class="stat-item">
+            <div class="stat-num" data-count="500">0+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-count="1200">0+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-count="8">0+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-count="98">0%</div>
+            <div class="stat-label">Satisfaction Rate</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testi-section">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="section-label">Testimonials</p>
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p class="section-subtitle">Don't just take our word for it — hear from businesses we've helped grow.</p>
+        </div>
+        <div class="testi-grid reveal">
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">Abitec transformed our company's visual identity completely. The vehicle branding they did on our delivery fleet gets us noticed everywhere. Outstanding quality and professionalism!</p>
+            <div class="testi-author">
+              <div class="testi-avatar">JM</div>
+              <div>
+                <div class="testi-name">James Mwangi</div>
+                <div class="testi-role">CEO, Mwangi Logistics</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">We ordered branded T-shirts for our corporate event and were blown away. The print quality was exceptional, delivered on time, and the pricing was very fair. Highly recommend!</p>
+            <div class="testi-author">
+              <div class="testi-avatar">AK</div>
+              <div>
+                <div class="testi-name">Amina Karimi</div>
+                <div class="testi-role">Events Manager, KCB Bank</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+            <p class="testi-text">Our new logo and brand identity package from Abitech is simply stunning. They understood our vision perfectly and delivered a design that truly represents who we are as a company.</p>
+            <div class="testi-author">
+              <div class="testi-avatar">SO</div>
+              <div>
+                <div class="testi-name">Sandra Odhiambo</div>
+                <div class="testi-role">Founder, Fresh Bites Restaurant</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">From design to print and shop branding, Abitech handled everything flawlessly. Their team is creative, responsive, and genuinely cares about your satisfaction. Our shop looks amazing!</p>
+            <div class="testi-author">
+              <div class="testi-avatar">DK</div>
+              <div>
+                <div class="testi-name">David Kamau</div>
+                <div class="testi-role">Owner, DK Fashion House</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">We've worked with many printers but none match Abitech's consistency and quality. Our event banners and brochures always look professional and impressive. They're our go-to print partner!</p>
+            <div class="testi-author">
+              <div class="testi-avatar">NW</div>
+              <div>
+                <div class="testi-name">Nancy Wanjiku</div>
+                <div class="testi-role">Marketing Director, Equity Group</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">Fast, affordable, and top-notch quality. Abitech printed our campaign materials overnight and everything was perfect. They saved our event! Can't recommend them enough.</p>
+            <div class="testi-author">
+              <div class="testi-avatar">PO</div>
+              <div>
+                <div class="testi-name">Peter Otieno</div>
+                <div class="testi-role">Campaign Manager</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <p class="section-label">Ready to Begin?</p>
+          <h2 class="section-title">Let's Create Something<br/>Extraordinary Together</h2>
+          <p class="section-subtitle">Get a free quote today and discover how Abitech can elevate your brand to the next level.</p>
+          <div class="cta-btns">
+            <a href="#" class="btn btn-primary" onclick="showPage('contact')"><i class="fas fa-envelope"></i> Request a Quote</a>
+            <a href="https://wa.me/254700000000?text=Hello%20Abitech%20Graphics%20%26%20Printing%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div><!-- end #page-home -->
+
+<!-- ============================================================
+     ABOUT PAGE
+============================================================ -->
+<div id="page-about" class="page">
+  <div class="page-content">
+    <section class="page-hero dark">
+      <div class="container">
+        <p class="breadcrumb">Home / <span>About Us</span></p>
+        <h1>About <em>Abitec</em></h1>
+        <p>Trusted graphics, printing, and branding partner since 2016.</p>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="section">
+      <div class="container">
+        <div class="about-overview reveal">
+          <div class="about-visual">
+            <div class="about-img-wrap">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="about-badge">
+              <div class="about-badge-num">10+</div>
+              <div class="about-badge-txt">Years of Creative Excellence</div>
+            </div>
+          </div>
+          <div class="about-text">
+            <p class="section-label">Our Story</p>
+            <h2>Where Creativity Meets Craftsmanship</h2>
+            <p>Abitech Graphics & Printing was founded in 2016 with a singular mission: to help businesses and individuals stand out through exceptional graphic design, printing, and branding. What started as a small design studio in Nairobi has grown into a full-service creative agency trusted by hundreds of clients across Kenya.</p>
+            <p>We pride ourselves on combining artistic creativity with technical precision. Our team of skilled designers and print specialists brings your vision to life — whether it's a compelling logo, a fleet of branded vehicles, or a complete shop transformation.</p>
+            <p>Every project, big or small, receives the same level of dedication and attention to detail that has made us one of Nairobi's most sought-after branding studios.</p>
+            <div class="about-mv">
+              <div class="mv-card">
+                <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                <p>To provide innovative, high-quality, and affordable graphic design, printing, and branding solutions that help businesses and individuals stand out.</p>
+              </div>
+              <div class="mv-card">
+                <h3><i class="fas fa-eye"></i> Our Vision</h3>
+                <p>To become a leading graphics, printing, and branding company recognized for creativity, quality, and customer satisfaction.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Strengths -->
+    <section class="section" style="background:var(--paper);">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="section-label">Our Strengths</p>
+          <h2 class="section-title">What Sets Us Apart</h2>
+          <p class="section-subtitle">Built on a foundation of talent, technology, and relentless customer focus.</p>
+        </div>
+        <div class="strengths-grid reveal">
+          <div class="strength-item"><i class="fas fa-lightbulb"></i><h3>Creativity</h3></div>
+          <div class="strength-item"><i class="fas fa-users"></i><h3>Professional Team</h3></div>
+          <div class="strength-item"><i class="fas fa-medal"></i><h3>Quality Work</h3></div>
+          <div class="strength-item"><i class="fas fa-shipping-fast"></i><h3>Fast Delivery</h3></div>
+          <div class="strength-item"><i class="fas fa-cogs"></i><h3>Modern Equipment</h3></div>
+          <div class="strength-item"><i class="fas fa-headset"></i><h3>Customer Support</h3></div>
+          <div class="strength-item"><i class="fas fa-dollar-sign"></i><h3>Competitive Pricing</h3></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="section-label">Company Values</p>
+          <h2 class="section-title">The Principles That Drive Us</h2>
+        </div>
+        <div class="values-grid reveal">
+          <div class="value-card"><i class="fas fa-handshake"></i><h3>Integrity</h3></div>
+          <div class="value-card"><i class="fas fa-award"></i><h3>Excellence</h3></div>
+          <div class="value-card"><i class="fas fa-rocket"></i><h3>Innovation</h3></div>
+          <div class="value-card"><i class="fas fa-shield-alt"></i><h3>Reliability</h3></div>
+          <div class="value-card"><i class="fas fa-heart"></i><h3>Customer Focus</h3></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <p class="section-label">Work With Us</p>
+          <h2 class="section-title">Ready to Build Your Brand?</h2>
+          <p class="section-subtitle">Contact us today for a free consultation and quote.</p>
+          <div class="cta-btns">
+            <a href="#" class="btn btn-primary" onclick="showPage('contact')"><i class="fas fa-envelope"></i> Get in Touch</a>
+            <a href="https://wa.me/254700000000?text=Hello%20Abitech%20Graphics%20%26%20Printing%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div><!-- end #page-about -->
+
+<!-- ============================================================
+     SERVICES PAGE
+============================================================ -->
+<div id="page-services" class="page">
+  <div class="page-content">
+    <section class="page-hero dark">
+      <div class="container">
+        <p class="breadcrumb">Home / <span>Services</span></p>
+        <h1>Our <em>Services</em></h1>
+        <p>Comprehensive creative solutions, from concept to final print — all under one roof.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- Graphic Design -->
+        <div class="service-category reveal">
+          <div class="cat-header">
+            <div class="cat-icon"><i class="fas fa-palette"></i></div>
+            <h2>Graphic Design</h2>
+          </div>
+          <div class="services-list">
+            <div class="service-item"><i class="fas fa-star"></i><h4>Logo Design</h4><p>Unique, memorable logos that capture your brand's essence and values.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Logo%20Design" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-image"></i><h4>Poster Design</h4><p>Eye-catching posters for events, promotions, and campaigns.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Poster%20Design" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-file-alt"></i><h4>Flyers & Brochures</h4><p>Professional marketing collateral that communicates your message clearly.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Flyers%20%26%20Brochures" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-id-card"></i><h4>Business Cards</h4><p>Elegant, premium business cards that make a lasting impression.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Business%20Cards" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-mobile-alt"></i><h4>Social Media Designs</h4><p>Scroll-stopping graphics for Facebook, Instagram, Twitter and more.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Social%20Media%20Designs" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-flag"></i><h4>Banners & Signage</h4><p>Bold, high-impact banner and signage designs for any purpose.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Banners%20%26%20Signage" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+          </div>
+        </div>
+
+        <!-- General Printing -->
+        <div class="service-category reveal">
+          <div class="cat-header">
+            <div class="cat-icon"><i class="fas fa-print"></i></div>
+            <h2>General Printing</h2>
+          </div>
+          <div class="services-list">
+            <div class="service-item"><i class="fas fa-file"></i><h4>Flyers</h4><p>Full-color flyer printing in A4, A5, A6 and custom sizes.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Flyer%20Printing" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-scroll"></i><h4>Posters</h4><p>Vivid poster printing on premium paper stock for maximum impact.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Poster%20Printing" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-book"></i><h4>Brochures</h4><p>Folded brochures and catalogues that showcase your products or services.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Brochure%20Printing" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-id-card"></i><h4>Business Cards</h4><p>Premium business cards in various finishes: matte, glossy, spot UV.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Business%20Card%20Printing" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-envelope-open"></i><h4>Letterheads</h4><p>Professional branded letterheads for your business correspondence.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Letterhead%20Printing" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-receipt"></i><h4>Receipts & Stickers</h4><p>Custom receipt books, stickers, labels and certificates.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Receipts%20%26%20Stickers" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+          </div>
+        </div>
+
+        <!-- T-Shirt Printing -->
+        <div class="service-category reveal" style="background:var(--paper);padding:2.5rem;border-radius:var(--radius-lg);margin-bottom:4rem;">
+          <div class="cat-header">
+            <div class="cat-icon"><i class="fas fa-tshirt"></i></div>
+            <h2>T-Shirt Printing</h2>
+          </div>
+          <div class="services-list">
+            <div class="service-item"><i class="fas fa-building"></i><h4>Corporate T-Shirts</h4><p>Uniform tees for your team with your logo and brand colors.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Corporate%20T-Shirts" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-calendar-alt"></i><h4>Event T-Shirts</h4><p>Custom printed tees for conferences, rallies, and team events.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Event%20T-Shirts" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-paint-brush"></i><h4>Custom Designs</h4><p>Bring your unique design to life on any garment or fabric.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Custom%20T-Shirt%20Designs" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-running"></i><h4>Sports Jerseys</h4><p>Sublimation-printed sports jerseys with player names and numbers.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Sports%20Jerseys" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+          </div>
+        </div>
+
+        <!-- Branding Services -->
+        <div class="service-category reveal">
+          <div class="cat-header">
+            <div class="cat-icon"><i class="fas fa-car"></i></div>
+            <h2>Branding Services</h2>
+          </div>
+          <div class="services-list">
+            <div class="service-item"><i class="fas fa-car"></i><h4>Vehicle Branding</h4><p>Full or partial vehicle wraps that turn your fleet into moving billboards.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Vehicle%20Branding" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-store"></i><h4>Shop Branding</h4><p>Comprehensive shop front signage, fascia boards, and window graphics.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Shop%20Branding" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-building"></i><h4>Office Branding</h4><p>Reception walls, office murals, glass frosting, and branded interiors.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Office%20Branding" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-border-all"></i><h4>Wall Branding</h4><p>Large-format wall graphics and murals for impactful brand environments.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Wall%20Branding" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-sign"></i><h4>Signage</h4><p>Indoor and outdoor signs, directory boards, and illuminated signage.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Signage" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-arrows-alt-v"></i><h4>Roll-Up Banners</h4><p>Portable, professional roll-up and X-frame banners for events and exhibitions.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Roll-Up%20Banners" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+          </div>
+        </div>
+
+        <!-- Large Format -->
+        <div class="service-category reveal" style="background:var(--slate);padding:2.5rem;border-radius:var(--radius-lg);margin-bottom:4rem;">
+          <div class="cat-header">
+            <div class="cat-icon"><i class="fas fa-expand-alt"></i></div>
+            <h2 style="color:var(--white);">Large Format Printing</h2>
+          </div>
+          <div class="services-list">
+            <div class="service-item"><i class="fas fa-flag"></i><h4>Banners</h4><p>Vinyl and fabric banners in any size for indoor and outdoor use.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Banner%20Printing" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-road"></i><h4>Billboards</h4><p>High-resolution billboard graphics that capture attention at any distance.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Billboard%20Printing" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-tv"></i><h4>Exhibition Displays</h4><p>Trade show displays, pop-up stands, and exhibition booth graphics.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Exhibition%20Displays" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-glass-cheers"></i><h4>Event Branding</h4><p>Full event decoration packages including backdrops, step-and-repeats.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Event%20Branding" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+          </div>
+        </div>
+
+        <!-- Promotional -->
+        <div class="service-category reveal">
+          <div class="cat-header">
+            <div class="cat-icon"><i class="fas fa-gift"></i></div>
+            <h2>Promotional Materials</h2>
+          </div>
+          <div class="services-list">
+            <div class="service-item"><i class="fas fa-mug-hot"></i><h4>Branded Mugs</h4><p>Custom-printed ceramic and travel mugs for corporate gifts.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Branded%20Mugs" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-hat-cowboy"></i><h4>Branded Caps</h4><p>Embroidered or printed caps and hats with your logo.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Branded%20Caps" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-pen"></i><h4>Branded Pens</h4><p>High-quality ballpoint and executive pens with custom imprints.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Branded%20Pens" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+            <div class="service-item"><i class="fas fa-box-open"></i><h4>Corporate Merchandise</h4><p>Full range of branded gifts, notebooks, bags, and promotional items.</p><a href="https://wa.me/254700000000?text=Hello%2C%20I%20need%20a%20quote%20for%20Corporate%20Merchandise" target="_blank" class="btn btn-outline-dark">Request Quote</a></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+</div><!-- end #page-services -->
+
+<!-- ============================================================
+     SHOP PAGE
+============================================================ -->
+<div id="page-shop" class="page">
+  <div class="page-content">
+    <section class="page-hero dark">
+      <div class="container">
+        <p class="breadcrumb">Home / <span>Shop</span></p>
+        <h1>Our <em>Products</em></h1>
+        <p>Browse our services and products. Click any item to get in touch and request a quote.</p>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--cream);">
+      <div class="container">
+
+        <!-- Shop Filter -->
+        <div class="filter-bar reveal" id="shopFilterBar">
+          <button class="filter-btn active" data-cat="all">All Products</button>
+          <button class="filter-btn" data-cat="design">Graphic Design</button>
+          <button class="filter-btn" data-cat="print">Printing</button>
+          <button class="filter-btn" data-cat="tshirt">T-Shirts</button>
+          <button class="filter-btn" data-cat="branding">Branding</button>
+          <button class="filter-btn" data-cat="promo">Promo Items</button>
+        </div>
+
+        <!-- Shop Grid -->
+        <div class="shop-grid" id="shopGrid">
+          <!-- Injected by JS -->
+        </div>
+
+      </div>
+    </section>
+  </div>
+</div><!-- end #page-shop -->
+
+<!-- ============================================================
+     OUR WORK PAGE
+============================================================ -->
+<div id="page-work" class="page">
+  <div class="page-content">
+    <section class="page-hero dark">
+      <div class="container">
+        <p class="breadcrumb">Home / <span>Our Work</span></p>
+        <h1>Our <em>Work</em></h1>
+        <p>A showcase of our finest work — branding, design, and print projects we're proud of.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <!-- Filter Bar -->
+        <div class="filter-bar reveal" id="filterBar">
+          <button class="filter-btn active" data-filter="all">All Work</button>
+          <button class="filter-btn" data-filter="design">Graphic Design</button>
+          <button class="filter-btn" data-filter="flyer">Flyers</button>
+          <button class="filter-btn" data-filter="bizcard">Business Cards</button>
+          <button class="filter-btn" data-filter="tshirt">T-Shirt Printing</button>
+          <button class="filter-btn" data-filter="vehicle">Vehicle Branding</button>
+          <button class="filter-btn" data-filter="shop">Shop Branding</button>
+          <button class="filter-btn" data-filter="banner">Banners</button>
+          <button class="filter-btn" data-filter="vehicle">3D Sings</button>
+          <button class="filter-btn" data-filter="shop">Shop Branding</button>
+          <button class="filter-btn" data-filter="banner">Banners</button>
+        </div>
+
+        <!-- Gallery -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Items generated by JS -->
+        </div>
+      </div>
+    </section>
+  </div>
+</div><!-- end #page-work -->
+
+<!-- ============================================================
+     CONTACT PAGE
+============================================================ -->
+<div id="page-contact" class="page">
+  <div class="page-content">
+    <section class="page-hero dark">
+      <div class="container">
+        <p class="breadcrumb">Home / <span>Contact Us</span></p>
+        <h1>Get In <em>Touch</em></h1>
+        <p>Have a project in mind? Let's talk. We're always excited to hear about new ideas.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-layout reveal">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <p class="section-label">Reach Us</p>
+            <h2>Let's Create<br/>Something Great</h2>
+            <p style="font-size:0.95rem;color:var(--muted);line-height:1.8;margin-bottom:2rem;">We'd love to hear about your project. Reach out via any of the channels below and our team will get back to you within 24 hours.</p>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-detail-text">
+                <strong>Location</strong>
+                <span>Thika Town, Tabby House,Fist floor Rm No:</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-detail-text">
+                <strong>Phone</strong>
+                <span>+254 710...........</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-detail-text">
+                <strong>Email</strong>
+                <span>info@abitechgraphics.co.ke</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon"><i class="fas fa-clock"></i></div>
+              <div class="contact-detail-text">
+                <strong>Working Hours</strong>
+                <span>Mon – Fri: 7:00 AM – 8:00 PM<br/>Sat: 7:00 AM – 8:00 PM</span>
+              </div>
+            </div>
+
+            <div class="socials-row">
+              <a href="#" class="social-btn social-fb"><i class="fab fa-facebook-f"></i> Facebook</a>
+              <a href="#" class="social-btn social-ig"><i class="fab fa-instagram"></i> Instagram</a>
+              <a href="#" class="social-btn social-tt"><i class="fab fa-tiktok"></i> TikTok</a>
+              <a href="#" class="social-btn social-li"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrap">
+            <h3>Send Us a Message</h3>
+            <form id="contactForm" onsubmit="handleFormSubmit(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fname">Full Name *</label>
+                  <input type="text" id="fname" placeholder="John Doe" required />
+                </div>
+                <div class="form-group">
+                  <label for="fphone">Phone Number *</label>
+                  <input type="tel" id="fphone" placeholder="+254 7XX XXX XXX" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="femail">Email Address</label>
+                <input type="email" id="femail" placeholder="john@company.com" />
+              </div>
+              <div class="form-group">
+                <label for="fservice">Service Needed *</label>
+                <select id="fservice" required>
+                  <option value="">Select a service...</option>
+                  <option>Graphic Design</option>
+                  <option>General Printing</option>
+                  <option>T-Shirt Printing</option>
+                  <option>Vehicle Branding</option>
+                  <option>Shop / Office Branding</option>
+                  <option>Large Format Printing</option>
+                  <option>Promotional Materials</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="fmsg">Message *</label>
+                <textarea id="fmsg" placeholder="Tell us about your project, quantity needed, deadline, etc." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+              <div class="form-success" id="formSuccess">
+                <i class="fas fa-check-circle"></i> Thank you! Your message has been received. We'll be in touch within 24 hours.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">Find Us</p>
+          <h2 class="section-title">Our Location</h2>
+        </div>
+        <div class="map-wrap reveal">
+          <span>Map — Thika Town, Kenya</span>
+          <iframe
+    src="https://maps.google.com/maps?q=Tabby%20House%20Thika%20Kenya&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div><!-- end #page-contact -->
+
+<!-- ============================================================
+     LIGHTBOX
+============================================================ -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+    <div class="lightbox-inner" id="lightboxIcon"></div>
+    <div class="lightbox-caption">
+      <h4 id="lightboxTitle"></h4>
+      <p id="lightboxCat"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo" onclick="showPage('home')">ABI<span>TECH</span><small>Graphics &amp; Printing</small></a>
+        <p>Nairobi's premier creative branding and printing studio. We transform ideas into powerful visual brands that help businesses stand out and grow.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/254700000000" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('home')">Home</a></li>
+          <li><a href="#" onclick="showPage('about')">About Us</a></li>
+          <li><a href="#" onclick="showPage('services')">Services</a></li>
+          <li><a href="#" onclick="showPage('shop')">Shop</a></li>
+          <li><a href="#" onclick="showPage('work')">Our Work</a></li>
+          <li><a href="#" onclick="showPage('contact')">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('services')">Graphic Design</a></li>
+          <li><a href="#" onclick="showPage('services')">General Printing</a></li>
+          <li><a href="#" onclick="showPage('services')">T-Shirt Printing</a></li>
+          <li><a href="#" onclick="showPage('services')">Vehicle Branding</a></li>
+          <li><a href="#" onclick="showPage('services')">Large Format Print</a></li>
+          <li><a href="#" onclick="showPage('services')">Promotional Items</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Thika town, Tabbi House</span></div>
+        <div class="footer-contact-item"><i class="fas fa-phone"></i><span>+254 710...........</span></div>
+        <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>info@abitechgraphics.co.ke</span></div>
+        <div class="footer-contact-item"><i class="fas fa-clock"></i><span>Mon–Fri: 8AM–8PM<br/>Sat: 8AM–7PM</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Abitec Graphics &amp; Printing. All rights reserved. |Design|Print|Brand <i class="fas fa-heart" style="color:var(--accent)"></i></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     FLOATING BUTTONS
+============================================================ -->
+<div class="fab-group">
+  <a href="https://wa.me/254700000000?text=Hello%20Abitech%20Graphics%20%26%20Printing%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="fab fab-wa">
+    <i class="fab fa-whatsapp" style="font-size:1.25rem;"></i> Chat on WhatsApp
+  </a>
+  <button class="fab fab-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+</div>
+
+<!-- ============================================================
+     JAVASCRIPT
+============================================================ -->
+<script>
+  /* -------- LOADER -------- */
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.getElementById('loader').classList.add('hidden');
+    }, 2000);
+  });
+
+  /* -------- PAGE NAVIGATION -------- */
+  function showPage(id) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById('page-' + id).classList.add('active');
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.classList.toggle('active', a.dataset.page === id);
+    });
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    // Close mobile menu
+    document.getElementById('navLinks').classList.remove('open');
+    document.getElementById('hamburger').classList.remove('open');
+    // Trigger reveals on new page
+    setTimeout(checkReveals, 100);
+    return false;
+  }
+
+  /* -------- HAMBURGER -------- */
+  document.getElementById('hamburger').addEventListener('click', function () {
+    this.classList.toggle('open');
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+
+  /* -------- NAVBAR SCROLL -------- */
+  const navbar = document.getElementById('navbar');
+  const fabTop = document.getElementById('scrollTop');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 50);
+    fabTop.classList.toggle('visible', window.scrollY > 400);
+  });
+
+  /* -------- HERO SLIDESHOW -------- */
+  const slides = document.querySelectorAll('.slide');
+  let current = 0;
+  const indicatorsEl = document.getElementById('heroIndicators');
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'hero-dot' + (i === 0 ? ' active' : '');
+    dot.setAttribute('aria-label', 'Slide ' + (i+1));
+    dot.onclick = () => goSlide(i);
+    indicatorsEl.appendChild(dot);
+  });
+
+  function goSlide(n) {
+    slides[current].classList.remove('active');
+    document.querySelectorAll('.hero-dot')[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    document.querySelectorAll('.hero-dot')[current].classList.add('active');
+  }
+
+  setInterval(() => goSlide(current + 1), 5000);
+
+  /* -------- TICKER -------- */
+  const tickerItems = [
+    'Graphic Design','T-Shirt Printing','Vehicle Branding','Large Format Printing',
+    'Business Cards','Shop Branding','Flyers & Posters','3D Signs','Promotional Items',
+    'Event Branding','Stamps','Logo Design','Roll-Up Banners','Corporate Merchandise'
+  ];
+  const tickerEl = document.getElementById('tickerInner');
+  // Duplicate for seamless loop
+  [...tickerItems, ...tickerItems].forEach(item => {
+    const span = document.createElement('span');
+    span.className = 'ticker-item';
+    span.innerHTML = `<i class="fas fa-diamond"></i>${item}`;
+    tickerEl.appendChild(span);
+  });
+
+  /* -------- GALLERY DATA -------- */
+  const galleryData = [
+    { cat: 'design', title: 'Brand Identity Package', subtitle: 'Graphic Design', icon: '🎨', bg: '#e8391a' },
+    { cat: 'flyer', title: 'Product Launch Flyer', subtitle: 'Flyer Design', icon: '📄', bg: '#2a2d36' },
+    { cat: 'bizcard', title: 'Executive Business Cards', subtitle: 'Business Cards', icon: '💳', bg: '#f5a623' },
+    { cat: 'tshirt', title: 'Corporate Uniform Tees', subtitle: 'T-Shirt Printing', icon: '👕', bg: '#0d5c63' },
+    { cat: 'vehicle', title: 'Delivery Van Wrap', subtitle: 'Vehicle Branding', icon: '🚐', bg: '#1a1a3d' },
+    { cat: 'shop', title: 'Retail Shop Fascia', subtitle: 'Shop Branding', icon: '🏪', bg: '#3d1a00' },
+    { cat: 'banner', title: 'Event Roll-Up Banner', subtitle: 'Banner Printing', icon: '🚩', bg: '#0a3d0a' },
+    { cat: 'design', title: 'Restaurant Logo Suite', subtitle: 'Graphic Design', icon: '✏️', bg: '#4a0a4a' },
+    { cat: 'flyer', title: 'Event Promotion Flyer', subtitle: 'Flyer Design', icon: '📋', bg: '#3d1a00' },
+    { cat: 'vehicle', title: 'Fleet Car Branding', subtitle: 'Vehicle Branding', icon: '🚗', bg: '#0a2a3d' },
+    { cat: 'tshirt', title: 'Sports Jersey Set', subtitle: 'T-Shirt Printing', icon: '⚽', bg: '#1a3d1a' },
+    { cat: 'banner', title: 'Billboard Design', subtitle: 'Large Format', icon: '🖼️', bg: '#3d0a0a' },
+    { cat: 'bizcard', title: 'Creative Agency Cards', subtitle: 'Business Cards', icon: '🃏', bg: '#0a0a3d' },
+    { cat: 'shop', title: 'Office Interior Branding', subtitle: 'Office Branding', icon: '🏢', bg: '#3d2a0a' },
+    { cat: 'design', title: 'Social Media Pack', subtitle: 'Graphic Design', icon: '📱', bg: '#2a0a3d' },
+    { cat: 'banner', title: 'Exhibition Display', subtitle: 'Large Format', icon: '🎪', bg: '#0a3d2a' },
+  ];
+
+  const galleryGrid = document.getElementById('galleryGrid');
+
+  function renderGallery(filter) {
+    galleryGrid.innerHTML = '';
+    const items = filter === 'all' ? galleryData : galleryData.filter(i => i.cat === filter);
+    items.forEach((item, idx) => {
+      const div = document.createElement('div');
+      div.className = 'gallery-item';
+      div.style.animationDelay = (idx * 0.05) + 's';
+      div.innerHTML = `
+        <div class="gallery-bg" style="background:${item.bg};">${item.icon}</div>
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>${item.title}</h4>
+            <span>${item.subtitle}</span>
+          </div>
+        </div>
+        <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+      `;
+      div.onclick = () => openLightbox(item);
+      galleryGrid.appendChild(div);
+    });
+  }
+
+  document.getElementById('filterBar').addEventListener('click', e => {
+    if (e.target.classList.contains('filter-btn')) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      renderGallery(e.target.dataset.filter);
+    }
+  });
+
+  renderGallery('all');
+
+  /* -------- LIGHTBOX -------- */
+  function openLightbox(item) {
+    document.getElementById('lightboxIcon').textContent = item.icon;
+    document.getElementById('lightboxIcon').style.background = item.bg;
+    document.getElementById('lightboxTitle').textContent = item.title;
+    document.getElementById('lightboxCat').textContent = item.subtitle;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+  /* -------- CONTACT FORM -------- */
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('button[type="submit"]');
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+    btn.disabled = true;
+    setTimeout(() => {
+      document.getElementById('formSuccess').classList.add('show');
+      e.target.reset();
+      btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+      btn.disabled = false;
+    }, 1800);
+  }
+
+  /* -------- SCROLL REVEAL -------- */
+  function checkReveals() {
+    const reveals = document.querySelectorAll('.page.active .reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => {
+      if (!el.classList.contains('visible')) observer.observe(el);
+    });
+  }
+
+  window.addEventListener('scroll', checkReveals);
+  checkReveals();
+
+  /* -------- STAT COUNTER ANIMATION -------- */
+  function animateStats() {
+    document.querySelectorAll('[data-count]').forEach(el => {
+      const target = parseInt(el.dataset.count);
+      const suffix = el.textContent.replace(/[0-9]/g, '');
+      let count = 0;
+      const step = Math.max(1, Math.floor(target / 60));
+      const timer = setInterval(() => {
+        count = Math.min(count + step, target);
+        el.textContent = count + suffix;
+        if (count >= target) clearInterval(timer);
+      }, 20);
+    });
+  }
+
+  const statsObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateStats();
+        statsObserver.disconnect();
+      }
+    });
+  }, { threshold: 0.5 });
+
+  const statsEl = document.querySelector('.stats-band');
+  if (statsEl) statsObserver.observe(statsEl);
+
+  /* -------- SHOP DATA -------- */
+  const shopProducts = [
+    { cat: 'print', name: 'Flyer Printing', desc: 'Full-color flyer printing on quality paper. A4, A5, or A6 sizes, any quantity.', price: 'From KSh 15 / pc', img: 'img/flier.png', color: '#e8391a', service: 'Flyer Printing' },
+    { cat: 'print', name: 'Poster Printing', desc: 'Vivid, high-resolution posters on premium gloss or matte stock.', price: 'From KSh 80 / pc',  img: 'img/image.png', color: '#0a3d0a', service: 'Poster Printing' },
+    { cat: 'print', name: 'Business Card Printing', desc: 'Premium cards with matte, gloss, or spot-UV finish. 250+ pcs per order.', price: 'From KSh 10 / 30',  img: 'img/HOME.jpg', color: '#3d1a00', service: 'Business Card Printing' },
+    { cat: 'print', name: 'Brochure Printing', desc: 'Tri-fold or bi-fold brochures to showcase your services in style.', price: 'From KSh 35 / pc', img: 'img/brobchuree.jpg', color: '#0a2a3d', service: 'Brochure Printing' },
+    { cat: 'print', name: 'Stickers & Labels', desc: 'Die-cut or rectangular vinyl stickers and product labels in any size.', price: 'From KSh 10 / pc',  img: 'img/sticker.jpg', color: '#2a0a3d', service: 'Receipts & Stickers' },
+    { cat: 'print', name: 'Letterheads', desc: 'Official branded receipt books,delivery notes,invoices etc for professional business correspondence.', price: 'From KSh 1000 / book', img: 'img/books.jpg', color: '#3d2a0a', service: 'Books ' },
+    { cat: 'tshirt', name: 'Corporate T-Shirts', desc: 'Uniform tees printed with your logo and brand colors. MOQ 10 pcs.', price: 'From KSh 800 / pc', img: 'img/tshirt.jpg', color: '#0d5c63', service: 'Corporate T-Shirts' },
+    { cat: 'tshirt', name: 'T-Shirts Branding', desc: 'Custom printed tees for your conference, rally, or team-building event.', price: 'From KSh 400 / pc', img: 'img/brand.jpg', color: '#1a3d1a', service: 'Event T-Shirts' },
+    { cat: 'tshirt', name: 'Sports Jerseys', desc: 'Sublimation-printed jerseys with player name, number, and team logo.', price: 'From KSh 400 / pc', img: 'img/jessy.jpg', color: '#3d0a0a', service: 'Sports Jerseys' },
+    { cat: 'tshirt', name: 'Custom Design Tees', desc: 'Lets Custoize your Organization Tent for functions', price: 'Quatation', img: 'img/tent.jpg', color: '#1a1a3d', service: 'Custom Tents' },
+    { cat: 'branding', name: 'Vehicle Branding', desc: 'Full or partial vehicle wrap that turns your fleet into moving billboards.', price: 'From KSh 15,000', img: 'img/car.jpg',  color: '#0a2a3d', service: 'Vehicle Branding' },
+    { cat: 'branding', name: 'Shop Front Branding', desc: 'Fascia boards, window graphics, and entrance signage for your retail space.', price: 'From KSh 5,000', img: 'img/shop.jpg', color: '#2a2d36', service: 'Shop Branding' },
+    { cat: 'branding', name: 'Office Branding', desc: 'Reception walls, murals, glass frosting, and branded office interiors.', price: 'From KSh 8,000', img: 'img/office.jpg', color: '#3d1a00', service: 'Office Branding' },
+    { cat: 'branding', name: 'Roll-Up Banners', desc: 'Portable roll-up or X-frame banners — great for events and exhibitions.', price: 'From KSh 3,500 / pc', img: 'img/rollup.jpg', color: '#0a3d0a', service: 'Roll-Up Banners' },
+    { cat: 'branding', name: 'Billboards', desc: 'Large-format billboard graphics designed for maximum roadside impact.', price: 'Request Quote', img: 'img/creative.jpg', color: '#4a0a4a', service: 'Billboard Printing' },
+    { cat: 'branding', name: 'Event Branding Package', desc: 'Step-and-repeat backdrops, podium wraps, and full event décor packages.', price: 'From KSh 12,000', img: 'img/event.jpg', color: '#0a0a3d', service: 'Event Branding' },
+    { cat: 'promo', name: 'Branded Mugs', desc: 'Full-color ceramic or travel mugs with your logo — great corporate gifts.', price: 'From KSh 350 / pc', img: 'img/shop.jpg', color: '#e8391a', service: 'Branded Mugs' },
+    { cat: 'promo', name: 'Branded Caps', desc: 'Embroidered or screen-printed caps in various styles and colors.', price: 'From KSh 450 / pc', img: 'img/mug.jpg', color: '#f5a623', service: 'Branded Caps' },
+    { cat: 'promo', name: 'Branded Pens', desc: 'High-quality ballpoint and executive pens with your logo imprint.', price: 'From KSh 80 / pc', img: 'img/pen.jpg', color: '#0d5c63', service: 'Branded Pens' },
+    { cat: 'promo', name: 'Corporate Merchandise', desc: 'Full range of branded gifts — notebooks, bags, USB drives, and more.', price: 'Request Quote', img: 'img/shop.jpg', color: '#2a2d36', service: 'Corporate Merchandise' },
+    { cat: 'design', name: 'Logo Design', desc: 'Unique, memorable logo that captures your brand essence. Includes source files.', price: 'From KSh 2,500', img: 'img/tent.jpg', color: '#e8391a', service: 'Logo Design' },
+    { cat: 'design', name: 'Social Media Pack', desc: 'Branded social media graphics for Facebook, Instagram, and Twitter/X.', price: 'From KSh 1,500', img: 'https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=600&q=80', color: '#4a0a4a', service: 'Social Media Designs' },
+  ];
+
+  const shopGrid = document.getElementById('shopGrid');
+
+  function renderShop(cat) {
+    shopGrid.innerHTML = '';
+    const items = cat === 'all' ? shopProducts : shopProducts.filter(p => p.cat === cat);
+    items.forEach((item, idx) => {
+      const card = document.createElement('div');
+      card.className = 'shop-card';
+      card.style.animationDelay = (idx * 0.04) + 's';
+      card.innerHTML = `
+        <div class="shop-card-visual">
+          <img src="${item.img}" alt="${item.name}" loading="lazy" onerror="this.parentElement.style.background='${item.color}';this.style.display='none'">
+          <div class="shop-card-badge">${item.cat === 'tshirt' ? 'T-Shirts' : item.cat === 'promo' ? 'Promo' : item.cat.charAt(0).toUpperCase() + item.cat.slice(1)}</div>
+        </div>
+        <div class="shop-card-body">
+          <h3>${item.name}</h3>
+          <p>${item.desc}</p>
+          <div class="shop-card-footer">
+            <span class="shop-price">${item.price}</span>
+            <button class="btn btn-primary shop-enquire-btn" onclick="shopEnquire('${encodeURIComponent(item.service)}')">
+              <i class="fas fa-comments"></i> Talk to Us
+            </button>
+          </div>
+        </div>
+      `;
+      shopGrid.appendChild(card);
+    });
+  }
+
+  function shopEnquire(serviceEncoded) {
+    const service = decodeURIComponent(serviceEncoded);
+    // Pre-select the service in the contact form if possible
+    showPage('contact');
+    setTimeout(() => {
+      const sel = document.getElementById('fservice');
+      if (sel) {
+        for (let i = 0; i < sel.options.length; i++) {
+          if (sel.options[i].text.toLowerCase().includes(service.split(' ')[0].toLowerCase())) {
+            sel.selectedIndex = i;
+            break;
+          }
+        }
+      }
+      const msg = document.getElementById('fmsg');
+      if (msg && !msg.value) {
+        msg.value = 'Hello, I would like to inquire about: ' + service;
+      }
+      // Smooth scroll to form
+      const form = document.querySelector('.contact-form-wrap');
+      if (form) form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 200);
+  }
+
+  document.getElementById('shopFilterBar').addEventListener('click', e => {
+    if (e.target.classList.contains('filter-btn')) {
+      document.querySelectorAll('#shopFilterBar .filter-btn').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      renderShop(e.target.dataset.cat);
+    }
+  });
+
+  renderShop('all');
+
+  /* -------- YEAR -------- */
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* -------- PREVENT DEFAULT on nav links -------- */
+  document.querySelectorAll('.nav-links a, .footer-brand a, .footer-col a').forEach(a => {
+    a.addEventListener('click', e => {
+      if (a.onclick) e.preventDefault();
+    });
+  });
+</script>
+</body>
+</html>
